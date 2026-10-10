@@ -1,0 +1,14 @@
+# Ignore heavy Burp Suite project files and session states
+*.bak
+*.tmp
+*.log
+*.pcap
+
+# Ignore giant downloaded wordlists (keep them local to Parrot OS)
+*.txt
+!README.md
+!notes/*.md
+
+# Ignore OS-specific files
+.DS_Store
+.directory
